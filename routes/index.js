@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/introjson', function(req, res, next) {
+  res.render('/jsons/intro_coder_json');
+});
+
 module.exports = router;
