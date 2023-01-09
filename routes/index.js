@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/introjson', function(req, res, next) {
-  res.render('/jsons/intro_coder_json');
+  res.render('introjson');
 });
 
 module.exports = router;
